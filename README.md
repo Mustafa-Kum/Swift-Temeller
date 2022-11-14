@@ -2,13 +2,13 @@
 
 import UIKit
 
-// Variables & Constants
+## Variables & Constants
 
 // Snake Case --> var user_name =
 
 // camelCase ---> var userName =
 
-// String
+# String
 
 var userName = "Tony" // ---> İlk yazılan ilk çalıştırılır.
 
@@ -22,7 +22,7 @@ var userSurname = "Stark"
 
 userName = "Steve" // ---> Değişken tanımlandıktan sonra değiştirilebilir. Yani tanımladıktan sonra başına var koyulmasına gerek yok.
 
-// Integer & Double & Float
+# Integer & Double & Float
 
 let userAge = 50 // ---> let sabit değişkendir. Hiçbir zaman değiştirilemez.
 
@@ -38,13 +38,13 @@ var myNumberD = 4.0
 
 userAgeD / myNumberD // ---> Doğru sonucu burada veriyor.
 
-// Boolean ---> Doğru Yanlış. Kontrol.
+# Boolean ---> Doğru Yanlış. Kontrol.
 
 var myBoolean = false
 
 myBoolean = true
 
-// Advenced
+# Advenced
 
 var myString : String = "50" // ---> Sınıf ismi büyük harf ile başlar. Daha önce tanımlanmış sınıfı çağırıyoruz.
 
@@ -52,11 +52,11 @@ let anotherNumber : Int = Int(10.5) // ---> Normalde double olan değişkeni Int
 
 let stringNumber : String = String(23) // ---> Integer sayımız String oldu
 
-// Define
+# Define
 
 let myVariable : String // ---> myVariable değişkenimi String olarak atadım ve bekliyor. Bu Define işlemidir.
 
-// Initialization
+# Initialization
 
 myVariable = "Test" // ---> Değişkeni başlatmak. Initialization.
 
@@ -68,7 +68,7 @@ print(myUpperVariable)
 
 print(myVariable)
 
-// Arrays
+## Arrays
 
 var myFavoriteMovies = ["Matrix", "Avengers", "Batman", 5, true] as [Any] // ---> Any ---> Liste içine String de girebilir Integer da
 
@@ -90,7 +90,7 @@ myStringArray.last // ---> Listenin sondaki elemanını getirir.
 
 myStringArray.sort() // ---> Listeyi dizer. Alfabetik.
 
-// Set ---> Indexleme yok ve içinde aynı elemandan sadece 1 kez olabilir.
+## Set ---> Indexleme yok ve içinde aynı elemandan sadece 1 kez olabilir.
 
 var mySet : Set = [1,2,3,4,5]
 
@@ -108,7 +108,7 @@ var mySet2 : Set = [3,4,5]
 
 var mySet3 = mySet1.union(mySet2) // ---> Union birleştir demektir. 2 Set'i birleştirdik.
 
-// Dictionary ---> Anahtar kelime ve değer eşleştirme.
+## Dictionary ---> Anahtar kelime ve değer eşleştirme.
 
 var myFavoriteAvengers = ["Tony Stark" : "Iron Man", "Steve Rogers" : "Captain America"]
 
@@ -126,7 +126,7 @@ var myDictionary = ["Run" : 100, "Swim" : 200] // ---> String ve Integer yada he
 
 myDictionary["Run"]
 
-// Loops ---> Döngü. Şartlar altında ki döngü.
+## Loops ---> Döngü. Şartlar altında ki döngü.
 
 var myNumber1 = 1
 
@@ -136,7 +136,7 @@ myNumber1
 
 myNumber1 += 1 // ---> +1 eklemek ile aynı gösterim.
 
-// While ---> Olduğunda
+## While ---> Olduğunda
 
 while myNumber1 < 15 { // ---> myNumber1 değişkeni 15'den küçük olduğu sürece +1 ekle.
     
@@ -156,7 +156,7 @@ while characterAlive == true { // ---> Değişkenimiz false olana kadar Characte
     
 }
 
-// For Loop
+## For Loop
 
 var myFruitArray = ["Banana", "Apple", "Orange"]
 
@@ -180,7 +180,7 @@ for myNumber2 in 1 ... 5 {
     
 }
 
-// If Controller ---> Eğer şu olursa bunu yap.
+## If Controller ---> Eğer şu olursa bunu yap.
 
 var myAge = 45
 
@@ -206,7 +206,7 @@ if myString2 == "Tony" { // If kontrolü her türlü değişkende yapılabilir.
     
 }
 
-// Functions ---> Fonksyonlar sadece çağırıldıkları zaman çalışırlar.
+## Functions ---> Fonksyonlar sadece çağırıldıkları zaman çalışırlar.
 
 func myFunction(){
     
@@ -246,7 +246,7 @@ logicFunction(a: 10, b: 2) // ---> Fonksyonu tekrar çağırdık ve içerisinde 
 
 print(logicFunction(a: 10, b: 2))
 
-// Optionals
+## Optionals
 
 var myName : String? // ---> Soru işareti bunu optional yap demek input giriledebilir girilmeyedebilir. Boş girilince App çökmesin diye.
 
