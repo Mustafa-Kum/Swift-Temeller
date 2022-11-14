@@ -1,4 +1,6 @@
-# Swift-Temeller
+## Swift-Temeller
+
+## Class'lar için 3 swift dosyası üsttedir.
 
 import UIKit
 
