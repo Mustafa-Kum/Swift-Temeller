@@ -272,6 +272,8 @@ if let myNumber3 = Int(myAges2) { // ---> If kontrolü ile hata mesajı göstere
     
 }
 
+----------------------------------------------------------------------
+
 ## Hesap Makinesi ##
 
 import UIKit
