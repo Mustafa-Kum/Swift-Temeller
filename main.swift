@@ -2,8 +2,6 @@
 //  main.swift
 //  Classes
 //
-//  Created by Ayşe Gülerman on 13.11.2022.
-//
 
 import Foundation
 
