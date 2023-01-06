@@ -1,5 +1,7 @@
 ## Swift-Temeller
 
+```swift
+
 ## Class'lar için 3 swift dosyası üsttedir.
 
 import UIKit
@@ -364,4 +366,4 @@ class ViewController: UIViewController {
     
 }
 
-----------------------------------------------------------------------
+```
